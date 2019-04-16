@@ -44,7 +44,8 @@ private:
 int main() {
   std::cout << "This programm jit-compiles the code of mult by 5(or your's "
                "multiplier) function\n";
-  std::cout << "Do you want to change multiplier? [N/y]: ";
+  std::cout
+      << "Do you want to change multiplier?(This is patching source) [N/y]: ";
   char agreement;
   std::cin.get(agreement);
   if (agreement == 'y') {
